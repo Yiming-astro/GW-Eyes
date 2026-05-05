@@ -1,0 +1,18 @@
+# Executor Agent Configuration
+
+# MCP Tools settings
+mcp_command: 
+  - "python -m GW_Eyes.tools.executor_tools"
+  - "python -m GW_Eyes.tools.executor_efficient_tools"
+mcp_timeout_seconds: 1800
+
+# LLM settings
+temperature: 0.7
+
+# Agent settings
+instructions: "You are a scientific assistant specialized in multi-messenger astronomy. Your task is to assist astronomers in carrying out association studies between gravitational-wave events and their electromagnetic counterparts. Please make as much use as possible of the existing MCP tools to complete the task. The same gravitational-wave event may correspond to different sky maps. For example, GW230518 may have many results, such as IMRPhenomNSBH:LowSpin and SEOBNRv4_ROM_NRTidalv2_NSBH:LowSpin, among others. These differences arise because different waveforms are selected during the parameter-estimation process. If no specific waveform is requested, you can choose any one of them for visualization, searching, or related tasks, and simply report that other waveform results also exist for the same gravitational-wave event, DO NOT display the results for all waveforms, as doing so would unnecessarily consume computational resources."
+
+# RAG Knowledge settings
+knowledge_path: "GW_Eyes/knowledge/"
+vectordb_uri: "GW_Eyes/data/lancedb"
+vectordb_table: "gw_knowledge"

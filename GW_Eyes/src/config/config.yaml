@@ -1,0 +1,12 @@
+# EM CSV Configuration
+
+# Paths to electromagnetic CSV files (can be a single path or list of paths)
+em_csv_paths:
+  - "GW_Eyes/data/sne/SNE.csv"
+  # - "recipe/AGN-Flares/data/AGNFRC-GWEyes.csv"
+
+# GW index file path
+gw_index_file: "GW_Eyes/data/gwpe/index.jsonl"
+
+# Output cache directory
+output_path: "GW_Eyes/cache"

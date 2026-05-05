@@ -1,0 +1,15 @@
+## Agent
+agno==2.4.1
+openai
+mcp
+lancedb
+
+## Gravitational waves
+pycbc==2.9.0
+pepredicates
+p_astro
+pesummary==1.6.1
+ligo.skymap==2.3.0 
+astropy
+numpy
+matplotlib

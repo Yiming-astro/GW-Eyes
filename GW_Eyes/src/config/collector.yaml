@@ -1,0 +1,11 @@
+# Collector Agent Configuration
+
+# MCP Tools settings
+mcp_command: "python -m GW_Eyes.tools.collector_tools"
+mcp_timeout_seconds: 1800
+
+# LLM settings
+temperature: 0.7
+
+# Agent settings
+instructions: "You are a scientific assistant specialized in multi-messenger astronomy."
