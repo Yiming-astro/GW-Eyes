@@ -74,6 +74,22 @@ Finally, type `exit` or `quit` to stop the agent loop.
 
 Please refer to the [documentation](./docs/documentation/README.md) for more use cases.
 
+## Attribution
+
+If you have used or referred to the code from `GW-Eyes`, please cite [Y. Dong et al. (2026)](https://arxiv.org/abs/2605.10584).
+
+```bibtex
+@article{Dong:2026zxm,
+    author = "Dong, Yiming and Kang, Yacheng and Zhao, Junjie and Zhu, Xinyuan and Wang, Ziming and Shao, Lijing",
+    title = "{An agentic framework for gravitational-wave counterpart association in the multi-messenger era}",
+    eprint = "2605.10584",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.IM",
+    month = "5",
+    year = "2026"
+}
+```
+
 ## Acknowledegement
 
 We gratefully acknowledge the developers of the following libraries, which have been instrumental to this project, [agno](https://github.com/agno-agi/agno), [ligo.skymap](https://github.com/lpsinger/ligo.skymap), [pesummary](https://github.com/pesummary/pesummary), [pycbc](https://github.com/gwastro/pycbc). At the same time, we sincerely thank open-source databases such as [GWOSC](https://gwosc.org), the [Open Supernova Catalog](https://github.com/astrocatalogs/supernovae), and [AGN-Flares](https://github.com/Lyle0831/AGN-Flares).
